@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA7DF2C3295001D60015FCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C2295001D60015FCCA /* AppDelegate.swift */; };
+		BA7DF2C5295001D60015FCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */; };
+		BA7DF2C7295001D60015FCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C6295001D60015FCCA /* ViewController.swift */; };
+		BA7DF2CA295001D60015FCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2C8295001D60015FCCA /* Main.storyboard */; };
+		BA7DF2CC295001D70015FCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2CB295001D70015FCCA /* Assets.xcassets */; };
+		BA7DF2CF295001D70015FCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */; };
+		BA7DF2DA295001D70015FCCA /* mobile_banking_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2D9295001D70015FCCA /* mobile_banking_trainingTests.swift */; };
+		BA7DF2E4295001D70015FCCA /* mobile_banking_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2E3295001D70015FCCA /* mobile_banking_trainingUITests.swift */; };
+		BA7DF2E6295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2E5295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA7DF2D6295001D70015FCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA7DF2B7295001D60015FCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA7DF2BE295001D60015FCCA;
+			remoteInfo = "mobile-banking-training";
+		};
+		BA7DF2E0295001D70015FCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA7DF2B7295001D60015FCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA7DF2BE295001D60015FCCA;
+			remoteInfo = "mobile-banking-training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA7DF2BF295001D60015FCCA /* mobile-banking-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-banking-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7DF2C2295001D60015FCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA7DF2C6295001D60015FCCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA7DF2C9295001D60015FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA7DF2CB295001D70015FCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA7DF2CE295001D70015FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA7DF2D0295001D70015FCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7DF2D5295001D70015FCCA /* mobile-banking-trainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-banking-trainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7DF2D9295001D70015FCCA /* mobile_banking_trainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_banking_trainingTests.swift; sourceTree = "<group>"; };
+		BA7DF2DF295001D70015FCCA /* mobile-banking-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-banking-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7DF2E3295001D70015FCCA /* mobile_banking_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_banking_trainingUITests.swift; sourceTree = "<group>"; };
+		BA7DF2E5295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_banking_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA7DF2BC295001D60015FCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2D2295001D70015FCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2DC295001D70015FCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA7DF2B6295001D60015FCCA = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2C1295001D60015FCCA /* mobile-banking-training */,
+				BA7DF2D8295001D70015FCCA /* mobile-banking-trainingTests */,
+				BA7DF2E2295001D70015FCCA /* mobile-banking-trainingUITests */,
+				BA7DF2C0295001D60015FCCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA7DF2C0295001D60015FCCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2BF295001D60015FCCA /* mobile-banking-training.app */,
+				BA7DF2D5295001D70015FCCA /* mobile-banking-trainingTests.xctest */,
+				BA7DF2DF295001D70015FCCA /* mobile-banking-trainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA7DF2C1295001D60015FCCA /* mobile-banking-training */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2C2295001D60015FCCA /* AppDelegate.swift */,
+				BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */,
+				BA7DF2C6295001D60015FCCA /* ViewController.swift */,
+				BA7DF2C8295001D60015FCCA /* Main.storyboard */,
+				BA7DF2CB295001D70015FCCA /* Assets.xcassets */,
+				BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */,
+				BA7DF2D0295001D70015FCCA /* Info.plist */,
+			);
+			path = "mobile-banking-training";
+			sourceTree = "<group>";
+		};
+		BA7DF2D8295001D70015FCCA /* mobile-banking-trainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2D9295001D70015FCCA /* mobile_banking_trainingTests.swift */,
+			);
+			path = "mobile-banking-trainingTests";
+			sourceTree = "<group>";
+		};
+		BA7DF2E2295001D70015FCCA /* mobile-banking-trainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2E3295001D70015FCCA /* mobile_banking_trainingUITests.swift */,
+				BA7DF2E5295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift */,
+			);
+			path = "mobile-banking-trainingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA7DF2BE295001D60015FCCA /* mobile-banking-training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7DF2E9295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-training" */;
+			buildPhases = (
+				BA7DF2BB295001D60015FCCA /* Sources */,
+				BA7DF2BC295001D60015FCCA /* Frameworks */,
+				BA7DF2BD295001D60015FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mobile-banking-training";
+			productName = "mobile-banking-training";
+			productReference = BA7DF2BF295001D60015FCCA /* mobile-banking-training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA7DF2D4295001D70015FCCA /* mobile-banking-trainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7DF2EC295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingTests" */;
+			buildPhases = (
+				BA7DF2D1295001D70015FCCA /* Sources */,
+				BA7DF2D2295001D70015FCCA /* Frameworks */,
+				BA7DF2D3295001D70015FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA7DF2D7295001D70015FCCA /* PBXTargetDependency */,
+			);
+			name = "mobile-banking-trainingTests";
+			productName = "mobile-banking-trainingTests";
+			productReference = BA7DF2D5295001D70015FCCA /* mobile-banking-trainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA7DF2DE295001D70015FCCA /* mobile-banking-trainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7DF2EF295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingUITests" */;
+			buildPhases = (
+				BA7DF2DB295001D70015FCCA /* Sources */,
+				BA7DF2DC295001D70015FCCA /* Frameworks */,
+				BA7DF2DD295001D70015FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA7DF2E1295001D70015FCCA /* PBXTargetDependency */,
+			);
+			name = "mobile-banking-trainingUITests";
+			productName = "mobile-banking-trainingUITests";
+			productReference = BA7DF2DF295001D70015FCCA /* mobile-banking-trainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA7DF2B7295001D60015FCCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BA7DF2BE295001D60015FCCA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BA7DF2D4295001D70015FCCA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BA7DF2BE295001D60015FCCA;
+					};
+					BA7DF2DE295001D70015FCCA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BA7DF2BE295001D60015FCCA;
+					};
+				};
+			};
+			buildConfigurationList = BA7DF2BA295001D60015FCCA /* Build configuration list for PBXProject "mobile-banking-training" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA7DF2B6295001D60015FCCA;
+			productRefGroup = BA7DF2C0295001D60015FCCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA7DF2BE295001D60015FCCA /* mobile-banking-training */,
+				BA7DF2D4295001D70015FCCA /* mobile-banking-trainingTests */,
+				BA7DF2DE295001D70015FCCA /* mobile-banking-trainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA7DF2BD295001D60015FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7DF2CF295001D70015FCCA /* LaunchScreen.storyboard in Resources */,
+				BA7DF2CC295001D70015FCCA /* Assets.xcassets in Resources */,
+				BA7DF2CA295001D60015FCCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2D3295001D70015FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2DD295001D70015FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA7DF2BB295001D60015FCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7DF2C7295001D60015FCCA /* ViewController.swift in Sources */,
+				BA7DF2C3295001D60015FCCA /* AppDelegate.swift in Sources */,
+				BA7DF2C5295001D60015FCCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2D1295001D70015FCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7DF2DA295001D70015FCCA /* mobile_banking_trainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7DF2DB295001D70015FCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7DF2E4295001D70015FCCA /* mobile_banking_trainingUITests.swift in Sources */,
+				BA7DF2E6295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA7DF2D7295001D70015FCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA7DF2BE295001D60015FCCA /* mobile-banking-training */;
+			targetProxy = BA7DF2D6295001D70015FCCA /* PBXContainerItemProxy */;
+		};
+		BA7DF2E1295001D70015FCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA7DF2BE295001D60015FCCA /* mobile-banking-training */;
+			targetProxy = BA7DF2E0295001D70015FCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA7DF2C8295001D60015FCCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA7DF2C9295001D60015FCCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA7DF2CE295001D70015FCCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA7DF2E7295001D70015FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA7DF2E8295001D70015FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA7DF2EA295001D70015FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mobile-banking-training/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA7DF2EB295001D70015FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mobile-banking-training/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA7DF2ED295001D70015FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile-banking-training.app/mobile-banking-training";
+			};
+			name = Debug;
+		};
+		BA7DF2EE295001D70015FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile-banking-training.app/mobile-banking-training";
+			};
+			name = Release;
+		};
+		BA7DF2F0295001D70015FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mobile-banking-training";
+			};
+			name = Debug;
+		};
+		BA7DF2F1295001D70015FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wbtraining.mobile-banking-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mobile-banking-training";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA7DF2BA295001D60015FCCA /* Build configuration list for PBXProject "mobile-banking-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7DF2E7295001D70015FCCA /* Debug */,
+				BA7DF2E8295001D70015FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7DF2E9295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7DF2EA295001D70015FCCA /* Debug */,
+				BA7DF2EB295001D70015FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7DF2EC295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7DF2ED295001D70015FCCA /* Debug */,
+				BA7DF2EE295001D70015FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7DF2EF295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7DF2F0295001D70015FCCA /* Debug */,
+				BA7DF2F1295001D70015FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA7DF2B7295001D60015FCCA /* Project object */;
+}
