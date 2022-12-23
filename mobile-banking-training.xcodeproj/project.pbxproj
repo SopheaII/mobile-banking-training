@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5A4E4CB22700984F0A1870 /* Pods_mobile_banking_trainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45691C2BDD22079C509E056 /* Pods_mobile_banking_trainingTests.framework */; };
+		BA63C4B72951B798001A5B12 /* Mycard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63C4B62951B798001A5B12 /* Mycard.swift */; };
+		BA63C4B9295209CC001A5B12 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63C4B8295209CC001A5B12 /* UIViewExtension.swift */; };
 		BA7DF2C3295001D60015FCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C2295001D60015FCCA /* AppDelegate.swift */; };
 		BA7DF2C5295001D60015FCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */; };
-		BA7DF2C7295001D60015FCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C6295001D60015FCCA /* ViewController.swift */; };
-		BA7DF2CA295001D60015FCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2C8295001D60015FCCA /* Main.storyboard */; };
+		BA7DF2C7295001D60015FCCA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2C6295001D60015FCCA /* home.swift */; };
 		BA7DF2CC295001D70015FCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2CB295001D70015FCCA /* Assets.xcassets */; };
 		BA7DF2CF295001D70015FCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */; };
 		BA7DF2DA295001D70015FCCA /* mobile_banking_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2D9295001D70015FCCA /* mobile_banking_trainingTests.swift */; };
 		BA7DF2E4295001D70015FCCA /* mobile_banking_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2E3295001D70015FCCA /* mobile_banking_trainingUITests.swift */; };
 		BA7DF2E6295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2E5295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift */; };
+		BA7DF2F329500B840015FCCA /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2F229500B840015FCCA /* AppRouter.swift */; };
+		BA7DF2F92951444A0015FCCA /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DF2F82951444A0015FCCA /* ImageExtension.swift */; };
+		BA902D38295196A200DAF31B /* UIStackExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA902D37295196A200DAF31B /* UIStackExtension.swift */; };
+		BAC7AC4F29540CAD00AB2416 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7AC4E29540CAD00AB2416 /* UILabelExtension.swift */; };
+		F55AFDEB4475F88DB72D40A5 /* Pods_mobile_banking_training_mobile_banking_trainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D862991FF1BDC115F08BF381 /* Pods_mobile_banking_training_mobile_banking_trainingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC914F426316C2AD1AD5FA4 /* Pods_mobile_banking_training.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_banking_training.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5CE14B067A465D2E1FE497 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51EE2C38B6A92C1FFA126E17 /* Pods-mobile-banking-training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-training.debug.xcconfig"; path = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training.debug.xcconfig"; sourceTree = "<group>"; };
+		5A38D59F7CA8AFFE1F4CBBB9 /* Pods-mobile-banking-trainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-trainingTests.debug.xcconfig"; path = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE5E2E71A046CB6900439FE /* Pods-mobile-banking-trainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-trainingTests.release.xcconfig"; path = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA63C4B62951B798001A5B12 /* Mycard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mycard.swift; sourceTree = "<group>"; };
+		BA63C4B8295209CC001A5B12 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		BA7DF2BF295001D60015FCCA /* mobile-banking-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-banking-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7DF2C2295001D60015FCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA7DF2C6295001D60015FCCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA7DF2C9295001D60015FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA7DF2C6295001D60015FCCA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		BA7DF2CB295001D70015FCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA7DF2CE295001D70015FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA7DF2D0295001D70015FCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,14 @@
 		BA7DF2DF295001D70015FCCA /* mobile-banking-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-banking-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7DF2E3295001D70015FCCA /* mobile_banking_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_banking_trainingUITests.swift; sourceTree = "<group>"; };
 		BA7DF2E5295001D70015FCCA /* mobile_banking_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_banking_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA7DF2F229500B840015FCCA /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		BA7DF2F82951444A0015FCCA /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		BA902D37295196A200DAF31B /* UIStackExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackExtension.swift; sourceTree = "<group>"; };
+		BAC7AC4E29540CAD00AB2416 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		D15A009A40E5105560A27D80 /* Pods-mobile-banking-training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-training.release.xcconfig"; path = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training.release.xcconfig"; sourceTree = "<group>"; };
+		D45691C2BDD22079C509E056 /* Pods_mobile_banking_trainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_banking_trainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D862991FF1BDC115F08BF381 /* Pods_mobile_banking_training_mobile_banking_trainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_banking_training_mobile_banking_trainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0FFFAFEE56D16740550948 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig"; path = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5A4E4CB22700984F0A1870 /* Pods_mobile_banking_trainingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55AFDEB4475F88DB72D40A5 /* Pods_mobile_banking_training_mobile_banking_trainingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12CC607B386B8B80C8572312 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EE2C38B6A92C1FFA126E17 /* Pods-mobile-banking-training.debug.xcconfig */,
+				D15A009A40E5105560A27D80 /* Pods-mobile-banking-training.release.xcconfig */,
+				0D5CE14B067A465D2E1FE497 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */,
+				ED0FFFAFEE56D16740550948 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */,
+				5A38D59F7CA8AFFE1F4CBBB9 /* Pods-mobile-banking-trainingTests.debug.xcconfig */,
+				7BE5E2E71A046CB6900439FE /* Pods-mobile-banking-trainingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB5F68A17FF04C8C8BF5D96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC914F426316C2AD1AD5FA4 /* Pods_mobile_banking_training.framework */,
+				D862991FF1BDC115F08BF381 /* Pods_mobile_banking_training_mobile_banking_trainingUITests.framework */,
+				D45691C2BDD22079C509E056 /* Pods_mobile_banking_trainingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA7DF2B6295001D60015FCCA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				BA7DF2D8295001D70015FCCA /* mobile-banking-trainingTests */,
 				BA7DF2E2295001D70015FCCA /* mobile-banking-trainingUITests */,
 				BA7DF2C0295001D60015FCCA /* Products */,
+				12CC607B386B8B80C8572312 /* Pods */,
+				AB5F68A17FF04C8C8BF5D96F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +147,9 @@
 		BA7DF2C1295001D60015FCCA /* mobile-banking-training */ = {
 			isa = PBXGroup;
 			children = (
-				BA7DF2C2295001D60015FCCA /* AppDelegate.swift */,
-				BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */,
-				BA7DF2C6295001D60015FCCA /* ViewController.swift */,
-				BA7DF2C8295001D60015FCCA /* Main.storyboard */,
+				BA902D392951B70D00DAF31B /* Views */,
+				BA7DF2F72951442D0015FCCA /* Extensions */,
+				BA7DF2F429500B8E0015FCCA /* App */,
 				BA7DF2CB295001D70015FCCA /* Assets.xcassets */,
 				BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */,
 				BA7DF2D0295001D70015FCCA /* Info.plist */,
@@ -127,6 +174,36 @@
 			path = "mobile-banking-trainingUITests";
 			sourceTree = "<group>";
 		};
+		BA7DF2F429500B8E0015FCCA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2C2295001D60015FCCA /* AppDelegate.swift */,
+				BA7DF2C4295001D60015FCCA /* SceneDelegate.swift */,
+				BA7DF2F229500B840015FCCA /* AppRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BA7DF2F72951442D0015FCCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2F82951444A0015FCCA /* ImageExtension.swift */,
+				BA902D37295196A200DAF31B /* UIStackExtension.swift */,
+				BA63C4B8295209CC001A5B12 /* UIViewExtension.swift */,
+				BAC7AC4E29540CAD00AB2416 /* UILabelExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA902D392951B70D00DAF31B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA7DF2C6295001D60015FCCA /* home.swift */,
+				BA63C4B62951B798001A5B12 /* Mycard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA7DF2E9295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-training" */;
 			buildPhases = (
+				E359D6CE1BC999CB3A18EBBC /* [CP] Check Pods Manifest.lock */,
 				BA7DF2BB295001D60015FCCA /* Sources */,
 				BA7DF2BC295001D60015FCCA /* Frameworks */,
 				BA7DF2BD295001D60015FCCA /* Resources */,
@@ -151,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA7DF2EC295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingTests" */;
 			buildPhases = (
+				81567FBD84BCE16297A8E783 /* [CP] Check Pods Manifest.lock */,
 				BA7DF2D1295001D70015FCCA /* Sources */,
 				BA7DF2D2295001D70015FCCA /* Frameworks */,
 				BA7DF2D3295001D70015FCCA /* Resources */,
@@ -169,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA7DF2EF295001D70015FCCA /* Build configuration list for PBXNativeTarget "mobile-banking-trainingUITests" */;
 			buildPhases = (
+				3B6D36274F5DEA47933616E4 /* [CP] Check Pods Manifest.lock */,
 				BA7DF2DB295001D70015FCCA /* Sources */,
 				BA7DF2DC295001D70015FCCA /* Frameworks */,
 				BA7DF2DD295001D70015FCCA /* Resources */,
@@ -233,7 +313,6 @@
 			files = (
 				BA7DF2CF295001D70015FCCA /* LaunchScreen.storyboard in Resources */,
 				BA7DF2CC295001D70015FCCA /* Assets.xcassets in Resources */,
-				BA7DF2CA295001D60015FCCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +332,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B6D36274F5DEA47933616E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile-banking-training-mobile-banking-trainingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81567FBD84BCE16297A8E783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile-banking-trainingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E359D6CE1BC999CB3A18EBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile-banking-training-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA7DF2BB295001D60015FCCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA7DF2C7295001D60015FCCA /* ViewController.swift in Sources */,
+				BA7DF2F329500B840015FCCA /* AppRouter.swift in Sources */,
+				BA902D38295196A200DAF31B /* UIStackExtension.swift in Sources */,
+				BA63C4B72951B798001A5B12 /* Mycard.swift in Sources */,
+				BA7DF2C7295001D60015FCCA /* home.swift in Sources */,
 				BA7DF2C3295001D60015FCCA /* AppDelegate.swift in Sources */,
+				BA7DF2F92951444A0015FCCA /* ImageExtension.swift in Sources */,
+				BA63C4B9295209CC001A5B12 /* UIViewExtension.swift in Sources */,
+				BAC7AC4F29540CAD00AB2416 /* UILabelExtension.swift in Sources */,
 				BA7DF2C5295001D60015FCCA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA7DF2C8295001D60015FCCA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA7DF2C9295001D60015FCCA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA7DF2CD295001D70015FCCA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,16 +578,17 @@
 		};
 		BA7DF2EA295001D70015FCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EE2C38B6A92C1FFA126E17 /* Pods-mobile-banking-training.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5Q6HSWBK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mobile-banking-training/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,16 +606,17 @@
 		};
 		BA7DF2EB295001D70015FCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15A009A40E5105560A27D80 /* Pods-mobile-banking-training.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5Q6HSWBK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mobile-banking-training/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +634,7 @@
 		};
 		BA7DF2ED295001D70015FCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A38D59F7CA8AFFE1F4CBBB9 /* Pods-mobile-banking-trainingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +654,7 @@
 		};
 		BA7DF2EE295001D70015FCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE5E2E71A046CB6900439FE /* Pods-mobile-banking-trainingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +674,7 @@
 		};
 		BA7DF2F0295001D70015FCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5CE14B067A465D2E1FE497 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +692,7 @@
 		};
 		BA7DF2F1295001D70015FCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0FFFAFEE56D16740550948 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

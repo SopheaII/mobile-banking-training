@@ -1,0 +1,6 @@
+framework module Pods_mobile_banking_trainingTests {
+  umbrella header "Pods-mobile-banking-trainingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

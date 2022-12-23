@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02357B4E22DBD9741063378AE8839F38 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383A5149C2DDD59ABF40F7748BD7CA8C /* Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m */; };
+		0732E997606EB0A1EEF64EBD2BE8DA41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0DDEC414F49FD1E892E91BE233C4CFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2BF71AC3B8873AC6D68AD0DBCB5963BD /* Pods-mobile-banking-training-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D962DEF854EB12D26FCDA149ACCCE8AA /* Pods-mobile-banking-training-dummy.m */; };
+		6125718E9E681D4B936A7C3A380DF5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6370246363219942145DEC966F4A0FE9 /* Pods-mobile-banking-trainingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A738AA1822CD804746767847DF517B /* Pods-mobile-banking-trainingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704AEA440DF2834E8F3F364EC3B115C3 /* Pods-mobile-banking-trainingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B0F5CF5A4B9F897480495A63447B55 /* Pods-mobile-banking-trainingTests-dummy.m */; };
+		C2A758ABA63CF8ABEE55EDF7E8D91F07 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CC45DF23378F7A80E6A185D4ABBE43 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FD7A300998B3DA4797D3B75B86A0DC /* Pods-mobile-banking-training-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1DEF432F0D45358BDD3F22BC86A97B /* Pods-mobile-banking-training-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203CF8262D037B43A5424F8B70A3CC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C711740DF6D362477A25974376CDB5;
+			remoteInfo = "Pods-mobile-banking-training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D17C4DF315DEE9518521788FF9D517 /* Pods-mobile-banking-training-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile-banking-training-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02B37FFD082D881C65D4359D712E66C1 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C02E88E2ACDBA46FE81FB4B258F1C90 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12101E5E150BB7F7E9BC077A93C0B59F /* Pods-mobile-banking-training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-training.release.xcconfig"; sourceTree = "<group>"; };
+		17CA4D5B3FA7E5537BDD27F9056B9F6C /* Pods-mobile-banking-training.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile-banking-training.modulemap"; sourceTree = "<group>"; };
+		20277EA4BD76E217F232F9A1DB205B63 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24B0F5CF5A4B9F897480495A63447B55 /* Pods-mobile-banking-trainingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile-banking-trainingTests-dummy.m"; sourceTree = "<group>"; };
+		24CC45DF23378F7A80E6A185D4ABBE43 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h"; sourceTree = "<group>"; };
+		383A5149C2DDD59ABF40F7748BD7CA8C /* Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m"; sourceTree = "<group>"; };
+		3E6A9EA1950240E208D61D5B97852AC8 /* Pods-mobile-banking-trainingTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile-banking-trainingTests"; path = Pods_mobile_banking_trainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A738AA1822CD804746767847DF517B /* Pods-mobile-banking-trainingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile-banking-trainingTests-umbrella.h"; sourceTree = "<group>"; };
+		49800844C468491863592F7811E89CB1 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests.modulemap"; sourceTree = "<group>"; };
+		4FF916AE442B3E6C50130BF31695B07D /* Pods-mobile-banking-trainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-trainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8041C8708C1DCA9A0913C85C686706 /* Pods-mobile-banking-trainingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-trainingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A52A83919A035A2AC24FE0DD0D1A6B /* Pods-mobile-banking-trainingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile-banking-trainingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69D08B9A01C6DC13D9E4E6FCFE3DADA6 /* Pods-mobile-banking-training-mobile-banking-trainingUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile-banking-training-mobile-banking-trainingUITests"; path = Pods_mobile_banking_training_mobile_banking_trainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E10779F24776F642183805CCFEDBA97 /* Pods-mobile-banking-trainingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-trainingTests-Info.plist"; sourceTree = "<group>"; };
+		8318F2EFE7B8EAD8FC670DA8F22F0A38 /* Pods-mobile-banking-training */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile-banking-training"; path = Pods_mobile_banking_training.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF7B52ED95F8A5923CB7DB75470FCB /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7B62217F24AA9945393C339B1BF4252 /* Pods-mobile-banking-trainingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile-banking-trainingTests.modulemap"; sourceTree = "<group>"; };
+		A88BFCAAB74D648B435BBA1F5A6C9644 /* Pods-mobile-banking-trainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-trainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB3BB727CADEF5D3508061212497B3EA /* Pods-mobile-banking-training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile-banking-training.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC1E297BD00565EB08AB409CFA4457D /* Pods-mobile-banking-training-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-training-Info.plist"; sourceTree = "<group>"; };
+		B488883D15D46F907E45AF386DB79C87 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-training-mobile-banking-trainingUITests-Info.plist"; sourceTree = "<group>"; };
+		D962DEF854EB12D26FCDA149ACCCE8AA /* Pods-mobile-banking-training-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile-banking-training-dummy.m"; sourceTree = "<group>"; };
+		DE1DEF432F0D45358BDD3F22BC86A97B /* Pods-mobile-banking-training-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile-banking-training-umbrella.h"; sourceTree = "<group>"; };
+		E2B4091D3F14E8F0C1729693247160AD /* Pods-mobile-banking-training-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile-banking-training-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3549E18A1D07776049271B7756F2282D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDEC414F49FD1E892E91BE233C4CFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1FBCD479F2C76EA8D6654357C80C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0732E997606EB0A1EEF64EBD2BE8DA41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D9B9FB2D8AEFDCB46D1F70827B436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125718E9E681D4B936A7C3A380DF5BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AFF71F1EE1220643A5188419406EDE /* Pods-mobile-banking-trainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B62217F24AA9945393C339B1BF4252 /* Pods-mobile-banking-trainingTests.modulemap */,
+				66A52A83919A035A2AC24FE0DD0D1A6B /* Pods-mobile-banking-trainingTests-acknowledgements.markdown */,
+				5D8041C8708C1DCA9A0913C85C686706 /* Pods-mobile-banking-trainingTests-acknowledgements.plist */,
+				24B0F5CF5A4B9F897480495A63447B55 /* Pods-mobile-banking-trainingTests-dummy.m */,
+				7E10779F24776F642183805CCFEDBA97 /* Pods-mobile-banking-trainingTests-Info.plist */,
+				45A738AA1822CD804746767847DF517B /* Pods-mobile-banking-trainingTests-umbrella.h */,
+				4FF916AE442B3E6C50130BF31695B07D /* Pods-mobile-banking-trainingTests.debug.xcconfig */,
+				A88BFCAAB74D648B435BBA1F5A6C9644 /* Pods-mobile-banking-trainingTests.release.xcconfig */,
+			);
+			name = "Pods-mobile-banking-trainingTests";
+			path = "Target Support Files/Pods-mobile-banking-trainingTests";
+			sourceTree = "<group>";
+		};
+		2AC3D6B27202D31FFFB8999F10475D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8318F2EFE7B8EAD8FC670DA8F22F0A38 /* Pods-mobile-banking-training */,
+				69D08B9A01C6DC13D9E4E6FCFE3DADA6 /* Pods-mobile-banking-training-mobile-banking-trainingUITests */,
+				3E6A9EA1950240E208D61D5B97852AC8 /* Pods-mobile-banking-trainingTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A07E213C0B36C3331A2906AA4CD808E /* Pods-mobile-banking-training */ = {
+			isa = PBXGroup;
+			children = (
+				17CA4D5B3FA7E5537BDD27F9056B9F6C /* Pods-mobile-banking-training.modulemap */,
+				01D17C4DF315DEE9518521788FF9D517 /* Pods-mobile-banking-training-acknowledgements.markdown */,
+				E2B4091D3F14E8F0C1729693247160AD /* Pods-mobile-banking-training-acknowledgements.plist */,
+				D962DEF854EB12D26FCDA149ACCCE8AA /* Pods-mobile-banking-training-dummy.m */,
+				AFC1E297BD00565EB08AB409CFA4457D /* Pods-mobile-banking-training-Info.plist */,
+				DE1DEF432F0D45358BDD3F22BC86A97B /* Pods-mobile-banking-training-umbrella.h */,
+				AB3BB727CADEF5D3508061212497B3EA /* Pods-mobile-banking-training.debug.xcconfig */,
+				12101E5E150BB7F7E9BC077A93C0B59F /* Pods-mobile-banking-training.release.xcconfig */,
+			);
+			name = "Pods-mobile-banking-training";
+			path = "Target Support Files/Pods-mobile-banking-training";
+			sourceTree = "<group>";
+		};
+		71AA129F515A26176FCAFA8AB345199D /* Pods-mobile-banking-training-mobile-banking-trainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49800844C468491863592F7811E89CB1 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.modulemap */,
+				0C02E88E2ACDBA46FE81FB4B258F1C90 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.markdown */,
+				20277EA4BD76E217F232F9A1DB205B63 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-acknowledgements.plist */,
+				383A5149C2DDD59ABF40F7748BD7CA8C /* Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m */,
+				B488883D15D46F907E45AF386DB79C87 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-Info.plist */,
+				24CC45DF23378F7A80E6A185D4ABBE43 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h */,
+				02B37FFD082D881C65D4359D712E66C1 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */,
+				83AF7B52ED95F8A5923CB7DB75470FCB /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */,
+			);
+			name = "Pods-mobile-banking-training-mobile-banking-trainingUITests";
+			path = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2AC3D6B27202D31FFFB8999F10475D0D /* Products */,
+				F808783BE34E0BF2847351569174F798 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F808783BE34E0BF2847351569174F798 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E213C0B36C3331A2906AA4CD808E /* Pods-mobile-banking-training */,
+				71AA129F515A26176FCAFA8AB345199D /* Pods-mobile-banking-training-mobile-banking-trainingUITests */,
+				02AFF71F1EE1220643A5188419406EDE /* Pods-mobile-banking-trainingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29951FF94F985F52C6F2713C96592E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6370246363219942145DEC966F4A0FE9 /* Pods-mobile-banking-trainingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3542690E77EC0515BD815C9B8BF8E882 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A758ABA63CF8ABEE55EDF7E8D91F07 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70390310A4F4A8FF73D98D9AE76351A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FD7A300998B3DA4797D3B75B86A0DC /* Pods-mobile-banking-training-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53C711740DF6D362477A25974376CDB5 /* Pods-mobile-banking-training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BDD03258F685D4F3E6ACFA111CB7B6 /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-training" */;
+			buildPhases = (
+				F70390310A4F4A8FF73D98D9AE76351A /* Headers */,
+				CD23B23326F694C8F0B79DBA3A7B1CB5 /* Sources */,
+				CD1FBCD479F2C76EA8D6654357C80C45 /* Frameworks */,
+				5246EC9AAF72474A7057735ACBFBC12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mobile-banking-training";
+			productName = Pods_mobile_banking_training;
+			productReference = 8318F2EFE7B8EAD8FC670DA8F22F0A38 /* Pods-mobile-banking-training */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C27CFEF0F02F0780ED7FB7147C6903F /* Pods-mobile-banking-trainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FDBF02DBC1B7826C201F5B0739D7FF /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-trainingTests" */;
+			buildPhases = (
+				29951FF94F985F52C6F2713C96592E3C /* Headers */,
+				4EFCDA08433D476EC565928142D0496A /* Sources */,
+				3549E18A1D07776049271B7756F2282D /* Frameworks */,
+				29F8E68C61919840954066131524234C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2275BE16DB7D5CACF09AD032E66E52E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-mobile-banking-trainingTests";
+			productName = Pods_mobile_banking_trainingTests;
+			productReference = 3E6A9EA1950240E208D61D5B97852AC8 /* Pods-mobile-banking-trainingTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F157875910DCD405A095031F3E185938 /* Pods-mobile-banking-training-mobile-banking-trainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E9DF7D28117444DEE911215BC99E338 /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-training-mobile-banking-trainingUITests" */;
+			buildPhases = (
+				3542690E77EC0515BD815C9B8BF8E882 /* Headers */,
+				B285DA4FCB3237B35D51140024C0D3AB /* Sources */,
+				EC1D9B9FB2D8AEFDCB46D1F70827B436 /* Frameworks */,
+				7286AED954C9A5D26691A20A4F4E8AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mobile-banking-training-mobile-banking-trainingUITests";
+			productName = Pods_mobile_banking_training_mobile_banking_trainingUITests;
+			productReference = 69D08B9A01C6DC13D9E4E6FCFE3DADA6 /* Pods-mobile-banking-training-mobile-banking-trainingUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2AC3D6B27202D31FFFB8999F10475D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C711740DF6D362477A25974376CDB5 /* Pods-mobile-banking-training */,
+				F157875910DCD405A095031F3E185938 /* Pods-mobile-banking-training-mobile-banking-trainingUITests */,
+				9C27CFEF0F02F0780ED7FB7147C6903F /* Pods-mobile-banking-trainingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F8E68C61919840954066131524234C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5246EC9AAF72474A7057735ACBFBC12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7286AED954C9A5D26691A20A4F4E8AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFCDA08433D476EC565928142D0496A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704AEA440DF2834E8F3F364EC3B115C3 /* Pods-mobile-banking-trainingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285DA4FCB3237B35D51140024C0D3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02357B4E22DBD9741063378AE8839F38 /* Pods-mobile-banking-training-mobile-banking-trainingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD23B23326F694C8F0B79DBA3A7B1CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF71AC3B8873AC6D68AD0DBCB5963BD /* Pods-mobile-banking-training-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2275BE16DB7D5CACF09AD032E66E52E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mobile-banking-training";
+			target = 53C711740DF6D362477A25974376CDB5 /* Pods-mobile-banking-training */;
+			targetProxy = 203CF8262D037B43A5424F8B70A3CC4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		219AF972A13AED74EF22A96BAD0EE309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3BB727CADEF5D3508061212497B3EA /* Pods-mobile-banking-training.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56B71A3E583A2D6FDD8FCCB77142F68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12101E5E150BB7F7E9BC077A93C0B59F /* Pods-mobile-banking-training.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-training/Pods-mobile-banking-training.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B0D8CE9ED18CFD6FF91B3CE28C01D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AF7B52ED95F8A5923CB7DB75470FCB /* Pods-mobile-banking-training-mobile-banking-trainingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B4540FC600339D101C80E78C450E091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88BFCAAB74D648B435BBA1F5A6C9644 /* Pods-mobile-banking-trainingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D39580DEA48B2E4339EE15BB021659E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF916AE442B3E6C50130BF31695B07D /* Pods-mobile-banking-trainingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-trainingTests/Pods-mobile-banking-trainingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A38931814C125B3C21EAC7C7724688C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B37FFD082D881C65D4359D712E66C1 /* Pods-mobile-banking-training-mobile-banking-trainingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile-banking-training-mobile-banking-trainingUITests/Pods-mobile-banking-training-mobile-banking-trainingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BDD03258F685D4F3E6ACFA111CB7B6 /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219AF972A13AED74EF22A96BAD0EE309 /* Debug */,
+				56B71A3E583A2D6FDD8FCCB77142F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E9DF7D28117444DEE911215BC99E338 /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-training-mobile-banking-trainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38931814C125B3C21EAC7C7724688C6 /* Debug */,
+				5B0D8CE9ED18CFD6FF91B3CE28C01D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FDBF02DBC1B7826C201F5B0739D7FF /* Build configuration list for PBXNativeTarget "Pods-mobile-banking-trainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D39580DEA48B2E4339EE15BB021659E /* Debug */,
+				7B4540FC600339D101C80E78C450E091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
