@@ -50,7 +50,7 @@ class Mycard: UIViewController {
     }()
 }
 
-
+ 
 #if DEBUG
 import SwiftUI
 
@@ -64,8 +64,9 @@ private struct VCRepresentable: UIViewControllerRepresentable {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 15.0, *)
 struct RunningPaceCalculatorViewController_Preview: PreviewProvider {
+    @available(iOS 15.0, *)
     static var previews: some View {
         VCRepresentable()
             .previewInterfaceOrientation(.portrait)

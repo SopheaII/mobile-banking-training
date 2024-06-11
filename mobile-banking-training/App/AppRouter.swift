@@ -37,15 +37,15 @@ class AppRouter: UITabBarController {
     
     func setupTabBar() {
         let tabBarItems = [
-            navBar(title: "Home", icon: "house", iconFill: "house.fill", tag: 1, screen: Home() ),
-            navBar(title: "Card", icon: "creditcard", iconFill: "creditcard.fill", tag: 2, screen: Home()),
-            navBar(title: "Transaction", icon: "list.bullet.rectangle.portrait", iconFill: "list.bullet.rectangle.portrait.fill", tag: 3, screen: Home()),
-            navBar(title: "Profile", icon: "person", iconFill: "person.fill", tag: 4, screen: Home())]
+            navBar(title: "Home", icon: "house", iconFill: "house.fill", tag: 1, screen: Myhome() ),
+            navBar(title: "Card", icon: "creditcard", iconFill: "creditcard.fill", tag: 2, screen: Myhome()),
+            navBar(title: "Transaction", icon: "list.bullet.rectangle.portrait", iconFill: "list.bullet.rectangle.portrait.fill", tag: 3, screen: Myhome()),
+            navBar(title: "Profile", icon: "person", iconFill: "person.fill", tag: 4, screen: Myhome())]
         
         let appearance = UITabBarAppearance()
         appearance.backgroundImage = UIImage()
         appearance.shadowImage = image
-        UITabBar.appearance().tintColor = UIColor(named: "AppColor")
+        UITabBar.appearance().tintColor = UIColor(named: "appColor")
         UITabBar.appearance().standardAppearance = appearance
         UITabBar.appearance().backgroundColor = UIColor.white
         viewControllers = tabBarItems
@@ -65,8 +65,9 @@ private struct VCRepresentable: UIViewControllerRepresentable {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 15.0, *)
 struct AppRouter_Preview: PreviewProvider {
+    @available(iOS 15.0, *)
     static var previews: some View {
         VCRepresentable()
             .previewInterfaceOrientation(.portrait)
